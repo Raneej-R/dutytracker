@@ -322,7 +322,7 @@ def check_password():
     """Returns `True` if the user enters the correct password."""
     password = st.sidebar.text_input("Admin Password (Upload Only)", type="password")
     # >>>>>> IMPORTANT: CHANGE "your_secret_password_for_upload" TO YOUR DESIRED PASSWORD! <<<<<<
-    if password == "your_secret_password_for_upload":
+    if password == "mecexam":
         return True
     return False
 
@@ -562,3 +562,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
