@@ -2,4 +2,5 @@ streamlit
 pandas
 tabula-py
 numpy
-openpyxl # Needed for reading .xlsx files
+openpyxl
+firebase-admin
